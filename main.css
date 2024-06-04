@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(to bottom, #fff, #000);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background: #fff;
+  padding: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.header b {
+  background: #000;
+  color: #fff;
+  padding:10px;
+  font-size: 20px;
+}
+
+.header marquee {
+  font-size:20px;
+  color: #000;
+  width: 100%;
+}
+
+.logo {
+  height:60px;
+  margin-right: 10px;
+}
+
+nav {
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px; /* increased font size */
+  font-weight: bold; /* added font weight to make it thicker */
+}
+
+nav a:hover {
+  color: #666;
+}
